@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+:root {
+  /* Paleta Azul Petróleo (Dark sem preto) */
+
+  /* Base */
+  --background: #111827;
+  /* cinza bem escuro */
+
+  --foreground: #F9FAFB;
+  /* texto principal */
+
+  /* Seções/Header/Footer */
+  --secondary: #0B3C5D;
+  /* azul petróleo */
+
+  /* Cards */
+  --card: #243447;
+  /* variação levemente mais clara */
+
+  /* Primary/Accent */
+  --primary: #38BDF8;
+  /* accent azul claro */
+  --primary-dark: #0EA5E9;
+
+  /* Texto */
+  --text-primary: #E5E7EB;
+  --text-secondary: #CBD5E1;
+  --muted: #94A3B8;
+
+  --accent: #38BDF8;
+
+  /* Smooth scrolling */
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--primary);
+  color: white;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-dark);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* Hero Animations */
+@keyframes grid {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(4rem);
+  }
+}
+
+@keyframes float-slow {
+
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+
+  50% {
+    transform: translateY(-20px) translateX(10px);
+  }
+}
+
+@keyframes float-medium {
+
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+
+  50% {
+    transform: translateY(-30px) translateX(-15px);
+  }
+}
+
+@keyframes float-fast {
+
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+
+  50% {
+    transform: translateY(-25px) translateX(20px);
+  }
+}
+
+.animate-grid {
+  animation: grid 20s linear infinite;
+}
+
+.animate-float-slow {
+  animation: float-slow 8s ease-in-out infinite;
+}
+
+.animate-float-medium {
+  animation: float-medium 6s ease-in-out infinite;
+}
+
+.animate-float-fast {
+  animation: float-fast 4s ease-in-out infinite;
+}
