@@ -70,7 +70,7 @@ export function Skills() {
             ]
         },
         {
-            id: 'db',
+            id: 'database',
             label: 'skills.database',
             icon: Database,
             items: [

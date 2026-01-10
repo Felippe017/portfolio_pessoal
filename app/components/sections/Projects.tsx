@@ -35,6 +35,14 @@ export function Projects() {
             link: 'https://felippe017.github.io/trivia_bigodes_game/',
             github: 'https://github.com/Felippe017/trivia_bigodes_game',
         },
+        {
+            title: t('project.title.4'),
+            desc: t('project.desc.4'),
+            tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+            image: '/portfolio-preview.png',
+            link: 'https://github.com/Felippe017/portfolio_pessoal',
+            github: 'https://github.com/Felippe017/portfolio_pessoal',
+        },
     ];
 
     return (

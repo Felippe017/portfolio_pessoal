@@ -83,6 +83,8 @@ Resultado: Através das melhorias implementadas no desenvolvimento da plataforma
         'project.desc.1': 'Landing page da minha agência, Shark Tech Solutions. Focada em consultoria tecnológica e criação de sites.',
         'project.desc.2': 'Landing Page profissional para psicóloga, com design acolhedor e informações sobre terapia.',
         'project.desc.3': 'Jogo de perguntas e respostas divertido e interativo para testar conhecimentos gerais.',
+        'project.title.4': 'Portfólio Pessoal',
+        'project.desc.4': 'Este próprio site! Desenvolvido para apresentar meus projetos e experiência, com foco em design limpo e performance.',
 
         // Contact
         'contact.title.1': 'Vamos',
@@ -177,6 +179,8 @@ Result: Through improvements implemented in platform development, our goal was t
         'project.desc.1': 'Landing page for my agency, Shark Tech Solutions. Focused on tech consulting and website creation.',
         'project.desc.2': 'Professional landing page for a psychologist, with a welcoming design and therapy information.',
         'project.desc.3': 'Fun and interactive trivia game to test general knowledge.',
+        'project.title.4': 'Personal Portfolio',
+        'project.desc.4': 'This very website! Developed to showcase my projects and experience, focusing on clean design and performance.',
 
         // Contact
         'contact.title.1': 'Let\'s',
