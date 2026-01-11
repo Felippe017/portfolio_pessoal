@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💼 Portfólio Pessoal
 
-## Getting Started
+## 🌐 Website | Portfólio
 
-First, run the development server:
+Este projeto é um **portfólio pessoal** desenvolvido para apresentar meus projetos, habilidades e experiências como desenvolvedor, servindo como vitrine profissional e ponto central da minha presença online.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O site foi pensado para ser **rápido, responsivo e moderno**, com foco em performance, clareza e boa experiência do usuário.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 **Acesse online:**  
+(https://portfolio-pessoal-jet-one.vercel.app/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚙️ Tecnologias e Ferramentas
 
-## Learn More
+- **Next.js** – Framework React para aplicações web modernas
+- **React** – Biblioteca para construção de interfaces
+- **TypeScript** – Tipagem estática para maior segurança
+- **Tailwind CSS** – Estilização utilitária e responsiva
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Funcionalidades
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- ✅ Layout moderno e responsivo
+- ✅ Página inicial com apresentação profissional
+- ✅ Seção de projetos com detalhes e links
+- ✅ Seção sobre mim
+- ✅ Contato com links diretos (LinkedIn, GitHub, WhatsApp)
+- ✅ SEO básico configurado
+- ✅ Alta performance e carregamento rápido
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👀 Preview
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔗 **Preview do website:**  
+https://portfolio-pessoal-jet-one.vercel.app
+
+---
+
+## 🚀 Como rodar localmente
+
+Siga os passos abaixo para executar o projeto em sua máquina:
+
+1. Clone o repositório:
+   
+       git clone https://github.com/Felippe017/portfolio_pessoal.git
+
+2. Acesse a pasta do projeto:
+   
+       cd portfólio_pessoal
+
+3. Instale as dependências:
+   
+       npm install
+
+4. Inicie o servidor de desenvolvimento:
+   
+       npm run dev
+
+A aplicação estará disponível em:
+
+       http://localhost:3000
+
+---
+
+## 🗂 Estrutura do Projeto
+
+Estrutura base do projeto:
+
+    app/
+     ├─ components/      # Componentes reutilizáveis
+     ├─ context/         # Contextos globais (React Context)
+     ├─ globals.css      # Estilos globais
+     ├─ icon.svg         # Ícone da aplicação
+     ├─ layout.tsx       # Layout principal (App Router)
+     └─ page.tsx         # Página inicial
+
+    public/              # Arquivos públicos
+
+    .gitignore
+    README.md
+    eslint.config.mjs
+    next.config.ts
+    package-lock.json
+    package.json
+    postcss.config.mjs
+    tsconfig.json
+
+---
+
+## 📄 Licença
+
+Este projeto é de uso pessoal e faz parte do meu portfólio profissional.  
+Você pode se inspirar, mas **não é permitida a cópia direta do design ou conteúdo**.
+
+---
+
+Desenvolvido por **Felippe Correa Lima** 🚀
